@@ -13,6 +13,8 @@
 		7ABF1D00299FE97D001EC71C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF1CFF299FE97D001EC71C /* Preview Assets.xcassets */; };
 		7ABF1D07299FEAA2001EC71C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF1D06299FEAA2001EC71C /* Extensions.swift */; };
 		7ABF1D09299FF1C6001EC71C /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF1D08299FF1C6001EC71C /* TransactionModel.swift */; };
+		7ABF1D0B29A00FA8001EC71C /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF1D0A29A00FA8001EC71C /* PreviewData.swift */; };
+		7ABF1D0F29A0158B001EC71C /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF1D0E29A0158B001EC71C /* TransactionRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		7ABF1CFF299FE97D001EC71C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7ABF1D06299FEAA2001EC71C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		7ABF1D08299FF1C6001EC71C /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		7ABF1D0A29A00FA8001EC71C /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		7ABF1D0E29A0158B001EC71C /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 			children = (
 				7ABF1CF8299FE97C001EC71C /* ExpenseTrackerApp.swift */,
 				7ABF1CFA299FE97C001EC71C /* ContentView.swift */,
+				7ABF1D0E29A0158B001EC71C /* TransactionRow.swift */,
 				7ABF1D08299FF1C6001EC71C /* TransactionModel.swift */,
 				7ABF1D06299FEAA2001EC71C /* Extensions.swift */,
 				7ABF1CFC299FE97D001EC71C /* Assets.xcassets */,
@@ -69,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				7ABF1CFF299FE97D001EC71C /* Preview Assets.xcassets */,
+				7ABF1D0A29A00FA8001EC71C /* PreviewData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -143,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ABF1D0B29A00FA8001EC71C /* PreviewData.swift in Sources */,
 				7ABF1D09299FF1C6001EC71C /* TransactionModel.swift in Sources */,
 				7ABF1CFB299FE97C001EC71C /* ContentView.swift in Sources */,
+				7ABF1D0F29A0158B001EC71C /* TransactionRow.swift in Sources */,
 				7ABF1D07299FEAA2001EC71C /* Extensions.swift in Sources */,
 				7ABF1CF9299FE97C001EC71C /* ExpenseTrackerApp.swift in Sources */,
 			);
