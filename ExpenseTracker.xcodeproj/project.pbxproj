@@ -12,6 +12,7 @@
 		7ABF1CFD299FE97D001EC71C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF1CFC299FE97D001EC71C /* Assets.xcassets */; };
 		7ABF1D00299FE97D001EC71C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF1CFF299FE97D001EC71C /* Preview Assets.xcassets */; };
 		7ABF1D07299FEAA2001EC71C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF1D06299FEAA2001EC71C /* Extensions.swift */; };
+		7ABF1D09299FF1C6001EC71C /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF1D08299FF1C6001EC71C /* TransactionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		7ABF1CFC299FE97D001EC71C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ABF1CFF299FE97D001EC71C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7ABF1D06299FEAA2001EC71C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7ABF1D08299FF1C6001EC71C /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				7ABF1CF8299FE97C001EC71C /* ExpenseTrackerApp.swift */,
 				7ABF1CFA299FE97C001EC71C /* ContentView.swift */,
+				7ABF1D08299FF1C6001EC71C /* TransactionModel.swift */,
 				7ABF1D06299FEAA2001EC71C /* Extensions.swift */,
 				7ABF1CFC299FE97D001EC71C /* Assets.xcassets */,
 				7ABF1CFE299FE97D001EC71C /* Preview Content */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ABF1D09299FF1C6001EC71C /* TransactionModel.swift in Sources */,
 				7ABF1CFB299FE97C001EC71C /* ContentView.swift in Sources */,
 				7ABF1D07299FEAA2001EC71C /* Extensions.swift in Sources */,
 				7ABF1CF9299FE97C001EC71C /* ExpenseTrackerApp.swift in Sources */,
