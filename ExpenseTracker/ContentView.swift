@@ -10,9 +10,7 @@ import SwiftUICharts
 
 struct ContentView: View {
     @EnvironmentObject var transactionListVM: TransactionListViewModel
-    
-//    var demoData: [Double] = [8, 2, 4, 6, 12, 9, 2]
-    
+        
     var body: some View {
         NavigationView {
             ScrollView {
@@ -29,7 +27,7 @@ struct ContentView: View {
                         let totalExpenses = data.last?.1 ?? 0
                         CardView {
                             VStack(alignment: .leading) {
-                                ChartLabel(totalExpenses.formatted(.currency(code: "USD")), type: .title)
+                                ChartLabel(totalExpenses.formatted(.currency(code: "USD")), type: .title, format: "$%.02f")
                                 LineChart()
                             }
                             .background(Color.systemBackground).shadow(radius: 5)
