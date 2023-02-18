@@ -1,6 +1,6 @@
 # Expense Tracker
 
-Expense tracker app for iOS built using SwiftUI.
+Expense tracker app that displays your history of expenses and features an interactive chart that tracks the current month's spending. Built using SwiftUI for iOS.
 
 # Demo
 
