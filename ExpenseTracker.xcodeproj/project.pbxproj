@@ -19,6 +19,7 @@
 		7ABF1D1429A03C96001EC71C /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF1D1329A03C96001EC71C /* TransactionListViewModel.swift */; };
 		7ABF1D1629A04D35001EC71C /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF1D1529A04D35001EC71C /* RecentTransactionList.swift */; };
 		7ABF1D1829A1506A001EC71C /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF1D1729A1506A001EC71C /* TransactionList.swift */; };
+		7ABF1D1B29A15A81001EC71C /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 7ABF1D1A29A15A81001EC71C /* Collections */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ABF1D1B29A15A81001EC71C /* Collections in Frameworks */,
 				7ABF1D1229A02344001EC71C /* SwiftUIFontIcon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,6 +110,7 @@
 			name = ExpenseTracker;
 			packageProductDependencies = (
 				7ABF1D1129A02344001EC71C /* SwiftUIFontIcon */,
+				7ABF1D1A29A15A81001EC71C /* Collections */,
 			);
 			productName = ExpenseTracker;
 			productReference = 7ABF1CF5299FE97C001EC71C /* ExpenseTracker.app */;
@@ -139,6 +142,7 @@
 			mainGroup = 7ABF1CEC299FE97C001EC71C;
 			packageReferences = (
 				7ABF1D1029A02344001EC71C /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
+				7ABF1D1929A15A81001EC71C /* XCRemoteSwiftPackageReference "swift-collections" */,
 			);
 			productRefGroup = 7ABF1CF6299FE97C001EC71C /* Products */;
 			projectDirPath = "";
@@ -385,6 +389,14 @@
 				kind = branch;
 			};
 		};
+		7ABF1D1929A15A81001EC71C /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -392,6 +404,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7ABF1D1029A02344001EC71C /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
 			productName = SwiftUIFontIcon;
+		};
+		7ABF1D1A29A15A81001EC71C /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7ABF1D1929A15A81001EC71C /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
